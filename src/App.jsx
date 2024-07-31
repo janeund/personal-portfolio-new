@@ -1,10 +1,12 @@
-import './App.css';
-import Hero from './sections/Hero/Hero';
+import { Navbar, Hero } from './components'
 
 function App() {
 
   return (
-    <Hero/>
+    <div className='container mx-auto px-4'>
+      <Navbar/>
+      <Hero/>
+    </div>
   )
 }
 
