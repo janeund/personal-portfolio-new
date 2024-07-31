@@ -1,11 +1,13 @@
-import { Navbar, Hero } from './components'
+import { Navbar, Hero, Skills, Projects } from './components'
 
 function App() {
 
   return (
     <div className='container mx-auto px-4'>
       <Navbar/>
-      <Hero/>
+      <Hero />
+      <Skills />
+      <Projects />
     </div>
   )
 }
