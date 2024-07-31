@@ -1,3 +1,5 @@
+import {news} from '../assets';
+
 export const navLinks = [
   {
     id: "home",
@@ -80,7 +82,7 @@ export const projects = [
     id: 'project-1', 
     title: 'News Website Homepage',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: 'newsWebSite',
+    image: news,
     stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
     demo: 'https://example.com',
     github: 'https://example.com'
@@ -89,7 +91,7 @@ export const projects = [
     id: 'project-2', 
     title: 'News Website Homepage',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: 'newsWebSite',
+    image: news,
     stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
     demo: 'https://example.com',
     github: 'https://example.com'
@@ -98,7 +100,7 @@ export const projects = [
     id: 'project-3', 
     title: 'News Website Homepage',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: 'newsWebSite',
+    image: news,
     stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
     demo: 'https://example.com',
     github: 'https://example.com'
