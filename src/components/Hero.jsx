@@ -2,13 +2,13 @@ import { photo, CV } from "../assets";
 
 function Hero() {
   return (
-    <section id="home" className='max-w-[800px] container flex mx-auto justify-between'>
-      <div className="info">
-        <h1 className="text-4xl font-bold">Evgeniia Zhavoronkova</h1>
-        <p className="font-bold">Junior Frontend Developer</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+    <section id="home" className='max-w-xl container flex mx-auto justify-between mb-10'>
+      <div className="info max-w-md">
+        <h1 className="text-4xl font-medium">Evgeniia Zhavoronkova</h1>
+        <p className="">Junior Frontend Developer</p>
+        <p className="text-zinc-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
       </div>
-      <img src={photo} alt="profile photo" className="max-w-36 rounded-full"/>
+      <img src={photo} alt="profile photo" className="max-w-32 rounded-full"/>
     </section>
   )
 }
