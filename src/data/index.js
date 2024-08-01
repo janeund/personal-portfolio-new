@@ -1,10 +1,10 @@
-import {news} from '../assets';
+import { news } from '../assets';
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
+  // {
+  //   id: "home",
+  //   title: "Home",
+  // },
   {
     id: "about",
     title: "About",
@@ -13,10 +13,10 @@ export const navLinks = [
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "education",
-    title: "Education",
-  },
+  // {
+  //   id: "education",
+  //   title: "Education",
+  // },
   {
     id: "experience",
     title: "Work Experience",
@@ -26,39 +26,48 @@ export const navLinks = [
 export const techSkills = [
   {
     id: 'skill-1',
-    name: 'HTML5'
+    name: 'HTML5',
+    icon: ''
   }, 
   {
     id: 'skill-2',
-    name: 'BEM'
+    name: 'BEM',
+    icon: ''
   }, 
   {
     id: 'skill-3',
-    name: 'CSS3'
+    name: 'CSS3',
+    icon: ''
   }, 
   {
     id: 'skill-4',
-    name: 'JavaScript'
+    name: 'JavaScript',
+    icon: ''
   }, 
   {
     id: 'skill-5',
-    name: 'Webpack'
+    name: 'Webpack',
+    icon: ''
   }, 
   {
     id: 'skill-6',
-    name: 'Vite'
+    name: 'Vite',
+    icon: ''
   }, 
   {
     id: 'skill-7',
-    name: 'React'
+    name: 'React',
+    icon: ''
   }, 
   {
     id: 'skill-8',
-    name: 'Git'
+    name: 'Git',
+    icon: ''
   }, 
   {
     id: 'skill-9',
-    name: 'Figma'
+    name: 'Figma',
+    icon: ''
   }
 ];
 
