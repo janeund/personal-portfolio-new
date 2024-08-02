@@ -9,14 +9,14 @@ function Navbar() {
     <nav className="flex py-8 mb-8 max-w-4xl container mx-auto justify-between">
       <div className="">
         <a href="#" className="font-bold">
-          ez
+          ezh
         </a>
       </div>
-      <ul className="sm:flex hidden">
+      <ul className="sm:flex hidden py-2 px-5 rounded-full bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`cursor-pointer text-base ${index === navLinks.length - 1 ? 'mr-0': 'mr-8'}`}
+            className={`cursor-pointer p-1 text-base ${index === navLinks.length - 1 ? 'mr-0': 'mr-8'}`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}

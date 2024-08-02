@@ -1,14 +1,22 @@
 import { photo, CV } from "../assets";
+import Skills from "./Skills";
+import Social from "./Social";
 
 function Hero() {
   return (
-    <section id="home" className='max-w-xl container flex mx-auto justify-between mb-10'>
-      <div className="info max-w-md">
-        <h1 className="text-4xl font-medium">Evgeniia Zhavoronkova</h1>
-        <p className="">Junior Frontend Developer</p>
-        <p className="text-zinc-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, illum!</p>
+    <section id="hero" className='container mx-auto max-w-xl mb-20'>
+      <div className="flex justify-between">
+        <div className="info max-w-sm">
+          <h1 className="text-3xl font-medium">Hello! I'm Evgeniia, </h1>
+          <p className="font-medium ">Junior Frontend Developer based in Oslo.</p>
+          <p className="mt-2">I'm a self-taught developer with backround in video games marketing.</p>
+        </div>
+        <img src={photo} alt="profile photo" className="max-w-32 rounded-full"/>
       </div>
-      <img src={photo} alt="profile photo" className="max-w-32 rounded-full"/>
+      <div>
+        <Social />
+        {/* <Skills /> */}
+      </div>
     </section>
   )
 }
