@@ -14,8 +14,9 @@ function Hero() {
         <img src={photo} alt="profile photo" className="max-w-32 rounded-full"/>
       </div>
       <div>
-        <Social />
+        <Social className="bg-[url('../assets/toppng.png')]" />
         {/* <Skills /> */}
+        <button className="py-2 px-4 border-2 border-black rounded-md font-medium ">Resume</button>
       </div>
     </section>
   )
