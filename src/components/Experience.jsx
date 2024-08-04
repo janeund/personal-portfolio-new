@@ -2,10 +2,10 @@ import { experience } from "../data";
 
 function Experience() {
   return (
-    <section id='experience' className="mb-10">
-      <h2 className="font-medium text-3xl mb-5">Experience</h2>
+    <section id='experience' className="mb-20">
+      <h2 className="font-medium inline-block text-3xl pb-1 mb-5 bg-gradient-to-r from-slate-600 via-slate-300 to-orange-200 bg-[length:100%_4px] bg-no-repeat bg-bottom">Experience</h2>
       
-<ul class="relative max-w-3xl mx-auto border-s border-gray-400 dark:border-gray-700">                  
+<ul className="relative max-w-3xl mx-auto border-s border-x-gray-300 dark:border-gray-700">                  
     {/* <li class="mb-9 ms-4">
         <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
@@ -14,8 +14,8 @@ function Experience() {
     </li> */}
 
     {experience.map((job, index) => (
-      <li key={job.id} className="mb-6 ms-4">
-        <div className="absolute w-3 h-3 bg-orange-100 rounded-full mt-1.5 -start-1.5 border border-white"></div>
+      <li key={job.id} className="mb-8 ms-4">
+        <div className="absolute w-3 h-3 bg-gradient-to-tr from-orange-200 to-white rounded-full border-gra mt-1.5 -start-1.5"></div>
         <h3 className="text-lg font-semibold text-gray-900">{job.position}</h3>
         <div className="text-base font-medium leading-none text-gray-900">{job.company}</div>
         <time className="mb-3 text-sm font-normal text-gray-400">{job.period}</time>

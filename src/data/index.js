@@ -1,7 +1,7 @@
 import { news } from '../assets';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss3, SiReact, SiHtml5, SiVitest, SiGit } from "react-icons/si";
+import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss3, SiReact, SiHtml5, SiVitest, SiGit, SiSass } from "react-icons/si";
 
 export const navLinks = [
   // {
@@ -95,43 +95,78 @@ export const projects = [
     title: 'Music Services Website',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
     image: news,
-    stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'Sass',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      }
+    ],
     demo: 'https://example.com',
     github: 'https://example.com'
   },
   { 
     id: 'project-2', 
     title: 'Music Services Website',
-    description: 'Website adapted for different users devices, including interactive mobile navigation, images slideshow and filter tabs',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
     image: news,
-    stack: ['HTML5', 'BEM', 'Sass', 'Vanilla JavaScript'],
-    demo: {
-      link: 'https://example.com',
-      icon: FaGithub,
-    },
-    github: {
-      link: 'https://example.com',
-      icon: FaGithub,
-    },
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'Sass',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      }
+    ],
+    demo: 'https://example.com',
+    github: 'https://example.com'
   },
-  { 
-    id: 'project-3', 
-    title: 'News Website Homepage',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
-    stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
-    demo: 'https://example.com',
-    github: 'https://example.com'
-  }, 
-  { 
-    id: 'project-3', 
-    title: 'News Website Homepage',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
-    stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
-    demo: 'https://example.com',
-    github: 'https://example.com'
-  }
+  // { 
+  //   id: 'project-2', 
+  //   title: 'Music Services Website',
+  //   description: 'Website adapted for different users devices, including interactive mobile navigation, images slideshow and filter tabs',
+  //   image: news,
+  //   stack: ['HTML5', 'BEM', 'Sass', 'Vanilla JavaScript'],
+  //   demo: {
+  //     link: 'https://example.com',
+  //     icon: FaGithub,
+  //   },
+  //   github: {
+  //     link: 'https://example.com',
+  //     icon: FaGithub,
+  //   },
+  // },
+  // { 
+  //   id: 'project-3', 
+  //   title: 'News Website Homepage',
+  //   description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+  //   image: news,
+  //   stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
+  //   demo: 'https://example.com',
+  //   github: 'https://example.com'
+  // }, 
+  // { 
+  //   id: 'project-3', 
+  //   title: 'News Website Homepage',
+  //   description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+  //   image: news,
+  //   stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
+  //   demo: 'https://example.com',
+  //   github: 'https://example.com'
+  // }
 ];
 
 export const education = [
