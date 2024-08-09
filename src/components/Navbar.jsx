@@ -7,8 +7,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="flex py-8 mb-8 max-w-4xl container mx-auto justify-between">
-      <div className="">
-        <a href="#" className="font-bold">
+      <div className="flex-1">
+        <a href="#" className="font-bold relative">
           ezh
         </a>
       </div>
@@ -25,7 +25,7 @@ function Navbar() {
         ))}
       </ul>
 
-      <div className="sm:hidden flex flex-1 items-center">
+      <div className="sm:hidden justify-end flex flex-1 items-center">
         <div onClick={() => setToggle((prev) => !prev)}>
           {toggle ? <IoClose /> : <RxHamburgerMenu />}
         </div>
