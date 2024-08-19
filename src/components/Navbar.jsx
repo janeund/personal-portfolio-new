@@ -16,7 +16,7 @@ function Navbar() {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`cursor-pointer font-[420] p-1 text-base ${index === navLinks.length - 1 ? 'mr-0': 'mr-8'}`}
+            className={`hover:bg-neutral-200 hover:rounded-full ease-in-out duration-500 cursor-pointer font-[430] py-2 px-4 text-base ${index === navLinks.length - 1 ? 'mr-0': 'mr-5'}`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
