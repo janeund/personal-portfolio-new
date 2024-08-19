@@ -186,26 +186,35 @@ export const experience = [
     website: 'https://astrum-entertainment.ru/en',
     position: 'Junior Brand Manager',
     place: 'Moscow, Russia',
-    description: 'developed product marketing strategy and presentations to stakeholders deployed campaigns, monitored and analyzed their KPI',
+    description: 'Developed product marketing strategy and presentations to stakeholders, monitored and analyzed KPI, collaborated with art and web-development teams on asset creation, assisted in marketing research, tested projects.',
     period: 'January – August 2023'
   },
   {
     id: 'job-2',
-    company: 'Astrum',
-    website: 'https://astrum-entertainment.ru/en',
-    position: 'Junior Brand Manager',
+    company: 'Ubisoft Games',
+    website: 'https://www.ubisoft.com/en-us/company/about-us',
+    position: 'Digital Marketing Specialist',
     place: 'Moscow, Russia',
-    description: 'developed product marketing strategy and presentations to stakeholders deployed campaigns, monitored and analyzed their KPI',
-    period: 'January – August 2023'
+    description: 'Developed marketing plans in collaboration with international teams, controlled optimization and perfomance of media campaigns, initiated partnerships with influensers.',
+    period: 'December 2021 - October 2022'
   },
   {
     id: 'job-3',
-    company: 'Astrum',
-    website: 'https://astrum-entertainment.ru/en',
-    position: 'Junior Brand Manager',
+    company: 'Ubisoft Games',
+    website: 'https://www.ubisoft.com/en-us/company/about-us',
+    position: 'Consumer Engagement Specialist',
     place: 'Moscow, Russia',
-    description: 'developed product marketing strategy and presentations to stakeholders deployed campaigns, monitored and analyzed their KPI',
-    period: 'January – August 2023'
+    description: 'Planned and managed online and offline events with gaming communities, localized marketing assets for the CIS region.',
+    period: 'August 2019 – November 2021'
+  },
+  {
+    id: 'job-4',
+    company: 'Ubisoft Games',
+    website: 'https://www.ubisoft.com/en-us/company/about-us',
+    position: 'Finance Assistant',
+    place: 'Moscow, Russia',
+    description: 'Worked with financial and legal documents, analyzed data, prepared financial reports.',
+    period: 'September 2018 – July 2019'
   }
 ];
 
