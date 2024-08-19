@@ -92,7 +92,7 @@ export const spokenLanguages = [
 export const projects = [
   { 
     id: 'project-1', 
-    title: 'Music Services Website',
+    title: 'Movie App',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
     image: news,
     stack: [
@@ -109,11 +109,33 @@ export const projects = [
         icon: SiJavascript
       }
     ],
-    demo: 'https://example.com',
-    github: 'https://example.com'
+    demo: 'https://janeund.github.io/memory-game/index.html',
+    github: 'https://github.com/janeund/movie-app'
   },
   { 
     id: 'project-2', 
+    title: 'Memory Game',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    image: news,
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'CSS',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      }
+    ],
+    demo: 'https://janeund.github.io/memory-game/index.html',
+    github: 'https://github.com/janeund/memory-game'
+  },
+  { 
+    id: 'project-3', 
     title: 'Music Services Website',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
     image: news,
@@ -123,7 +145,7 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'Sass',
+        name: 'CSS',
         icon: SiSass
       },
       {
@@ -131,8 +153,74 @@ export const projects = [
         icon: SiJavascript
       }
     ],
-    demo: 'https://example.com',
-    github: 'https://example.com'
+    demo: 'https://janeund.github.io/qrates/',
+    github: 'https://github.com/janeund/qrates'
+  },
+  { 
+    id: 'project-4', 
+    title: 'Calorie Tracker App',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    image: news,
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'CSS',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      }
+    ],
+    demo: 'https://janeund.github.io/qrates/',
+    github: 'https://github.com/janeund/qrates'
+  },
+  { 
+    id: 'project-5', 
+    title: 'Marketing Agency Landing page',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    image: news,
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'CSS',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      }
+    ],
+    demo: 'https://janeund.github.io/marketing-agency/dist/',
+    github: 'https://github.com/janeund/marketing-agency'
+  },
+  { 
+    id: 'project-6', 
+    title: 'Custom Video Player',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    image: news,
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'CSS',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      }
+    ],
+    demo: 'https://janeund.github.io/marketing-agency/dist/',
+    github: 'https://github.com/janeund/marketing-agency'
   },
   // { 
   //   id: 'project-2', 
