@@ -109,7 +109,7 @@ export const projects = [
         icon: SiJavascript
       }
     ],
-    demo: 'https://janeund.github.io/memory-game/index.html',
+    demo: 'https://movie-app-msb.netlify.app',
     github: 'https://github.com/janeund/movie-app'
   },
   { 
@@ -176,7 +176,7 @@ export const projects = [
       }
     ],
     demo: 'https://janeund.github.io/qrates/',
-    github: 'https://github.com/janeund/qrates'
+    github: 'https://github.com/janeund/calorie-tracker'
   },
   { 
     id: 'project-5', 
@@ -219,42 +219,9 @@ export const projects = [
         icon: SiJavascript
       }
     ],
-    demo: 'https://janeund.github.io/marketing-agency/dist/',
-    github: 'https://github.com/janeund/marketing-agency'
+    demo: 'https://janeund.github.io/custom-video-player/',
+    github: 'https://github.com/janeund/custom-video-player'
   },
-  // { 
-  //   id: 'project-2', 
-  //   title: 'Music Services Website',
-  //   description: 'Website adapted for different users devices, including interactive mobile navigation, images slideshow and filter tabs',
-  //   image: news,
-  //   stack: ['HTML5', 'BEM', 'Sass', 'Vanilla JavaScript'],
-  //   demo: {
-  //     link: 'https://example.com',
-  //     icon: FaGithub,
-  //   },
-  //   github: {
-  //     link: 'https://example.com',
-  //     icon: FaGithub,
-  //   },
-  // },
-  // { 
-  //   id: 'project-3', 
-  //   title: 'News Website Homepage',
-  //   description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-  //   image: news,
-  //   stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
-  //   demo: 'https://example.com',
-  //   github: 'https://example.com'
-  // }, 
-  // { 
-  //   id: 'project-3', 
-  //   title: 'News Website Homepage',
-  //   description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-  //   image: news,
-  //   stack: ['HTML5', 'Sass', 'Vanilla JavaScript'],
-  //   demo: 'https://example.com',
-  //   github: 'https://example.com'
-  // }
 ];
 
 export const education = [
