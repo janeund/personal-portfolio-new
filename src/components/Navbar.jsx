@@ -7,8 +7,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="flex py-8 mb-14 max-w-4xl container mx-auto justify-between">
-      <div className="flex-1">
-        <a href="#" className="font-bold relative">
+      <div className="flex-1 flex items-center">
+        <a href="#" className="font-bold relative text-lg">
           ezh
         </a>
       </div>
