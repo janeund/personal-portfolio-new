@@ -5,7 +5,7 @@ function Experience() {
     <section id='experience' className="mb-20">
       <h2 className="font-medium inline-block text-3xl pb-1 mb-5 bg-gradient-to-r from-[#2e3f4663] via-[#F1D0D0] to-[#918f88cb] bg-[length:100%_4px] bg-no-repeat bg-bottom">Experience</h2>
       
-<ul className="relative max-w-3xl mx-auto border-s border-x-gray-300 dark:border-gray-700">                  
+<ul className="relative mx-auto border-s border-x-gray-300 dark:border-gray-700">                  
     {/* <li class="mb-9 ms-4">
         <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
