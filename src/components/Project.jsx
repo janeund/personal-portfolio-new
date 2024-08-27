@@ -5,7 +5,9 @@ import { TfiWorld } from "react-icons/tfi";
 function Project({id, title, description, image, stack, demo, github}) {
   return (
     <li key={id} className="py-7 px-6 bg-white rounded-xl drop-shadow-xl">
-      <img src={image} alt={title} className="mb-4"/>
+      <div className="min-h-52">
+        <img src={image} alt={title} className="mb-4"/>
+      </div>
       <h3 className="font-medium mb-2">{title}</h3>
       <p className="mb-3 text-[15px] leading-5">{description}</p>
       <ul className="flex gap-2 flex-wrap mb-7">

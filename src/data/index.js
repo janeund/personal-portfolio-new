@@ -1,7 +1,7 @@
-import { news } from '../assets';
+import { moviePick, movie, memory, landing, qrates, calorieTracker } from '../assets';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss3, SiReact, SiHtml5, SiVitest, SiGit, SiSass } from "react-icons/si";
+import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss3, SiReact, SiHtml5, SiVitest, SiGit, SiSass, SiSwiper } from "react-icons/si";
 
 export const navLinks = [
   // {
@@ -92,21 +92,29 @@ export const spokenLanguages = [
 export const projects = [
   { 
     id: 'project-1', 
-    title: 'Movie App',
+    title: 'Discover Movie App',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
+    image: movie,
     stack: [
       {
         name: 'HTML5',
         icon: SiHtml5
       },
       {
-        name: 'Sass',
-        icon: SiSass
+        name: 'CSS',
+        icon: SiCss3
       },
       {
         name: 'JavaScript',
         icon: SiJavascript
+      },
+      {
+        name: 'Swiper.js',
+        icon: SiSwiper
+      },
+      {
+        name: 'Vite',
+        icon: SiVitest
       }
     ],
     demo: 'https://movie-app-msb.netlify.app',
@@ -116,7 +124,7 @@ export const projects = [
     id: 'project-2', 
     title: 'Memory Game',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
+    image: memory,
     stack: [
       {
         name: 'HTML5',
@@ -124,11 +132,15 @@ export const projects = [
       },
       {
         name: 'CSS',
-        icon: SiSass
+        icon: SiCss3
       },
       {
         name: 'JavaScript',
         icon: SiJavascript
+      },
+      {
+        name: 'Vite',
+        icon: SiVitest
       }
     ],
     demo: 'https://janeund.github.io/memory-game/index.html',
@@ -136,9 +148,35 @@ export const projects = [
   },
   { 
     id: 'project-3', 
-    title: 'Music Services Website',
+    title: 'Calorie Tracker App',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
+    image: calorieTracker,
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'SCSS',
+        icon: SiSass
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      },
+      {
+        name: 'Webpack',
+        icon: SiWebpack
+      }
+    ],
+    demo: 'https://tracking-calories.netlify.app/',
+    github: 'https://github.com/janeund/calorie-tracker'
+  },
+  { 
+    id: 'project-4', 
+    title: 'Movie Seat Booking',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    image: moviePick,
     stack: [
       {
         name: 'HTML5',
@@ -151,38 +189,46 @@ export const projects = [
       {
         name: 'JavaScript',
         icon: SiJavascript
+      },
+      {
+        name: 'Vite',
+        icon: SiVitest
+      }
+    ],
+    demo: 'https://janeund.github.io/movie-booking/',
+    github: 'https://github.com/janeund/movie-booking'
+  },
+  { 
+    id: 'project-5', 
+    title: 'Music Services Website',
+    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    image: qrates,
+    stack: [
+      {
+        name: 'HTML5',
+        icon: SiHtml5
+      },
+      {
+        name: 'CSS',
+        icon: SiCss3
+      },
+      {
+        name: 'JavaScript',
+        icon: SiJavascript
+      },
+      {
+        name: 'Vite',
+        icon: SiVitest
       }
     ],
     demo: 'https://janeund.github.io/qrates/',
     github: 'https://github.com/janeund/qrates'
   },
   { 
-    id: 'project-4', 
-    title: 'Calorie Tracker App',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
-    stack: [
-      {
-        name: 'HTML5',
-        icon: SiHtml5
-      },
-      {
-        name: 'CSS',
-        icon: SiSass
-      },
-      {
-        name: 'JavaScript',
-        icon: SiJavascript
-      }
-    ],
-    demo: 'https://janeund.github.io/qrates/',
-    github: 'https://github.com/janeund/calorie-tracker'
-  },
-  { 
-    id: 'project-5', 
+    id: 'project-6', 
     title: 'Marketing Agency Landing page',
     description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
+    image: landing,
     stack: [
       {
         name: 'HTML5',
@@ -195,32 +241,14 @@ export const projects = [
       {
         name: 'JavaScript',
         icon: SiJavascript
+      },
+      {
+        name: 'Webpack',
+        icon: SiWebpack
       }
     ],
     demo: 'https://janeund.github.io/marketing-agency/dist/',
     github: 'https://github.com/janeund/marketing-agency'
-  },
-  { 
-    id: 'project-6', 
-    title: 'Custom Video Player',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
-    image: news,
-    stack: [
-      {
-        name: 'HTML5',
-        icon: SiHtml5
-      },
-      {
-        name: 'CSS',
-        icon: SiSass
-      },
-      {
-        name: 'JavaScript',
-        icon: SiJavascript
-      }
-    ],
-    demo: 'https://janeund.github.io/custom-video-player/',
-    github: 'https://github.com/janeund/custom-video-player'
   },
 ];
 
