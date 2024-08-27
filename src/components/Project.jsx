@@ -19,8 +19,8 @@ function Project({id, title, description, image, stack, demo, github}) {
       </ul>
       
       <div className="flex gap-3 justify-end">
-        <a className="inline-flex gap-1 cursor-pointer items-center underline-offset-4 underline decoration-1" target="_blanc" href={demo}><TfiWorld /> View live</a>
-        <a className="inline-flex gap-1 cursor-pointer items-center underline-offset-4 underline decoration-1" target="_blanc" href={github}><SiGithub /> Repository </a>
+        <a className="inline-flex gap-1 cursor-pointer items-center underline-offset-4 underline decoration-1 hover:decoration-transparent hover:text-sky-900 transition-all" target="_blank" href={demo}><TfiWorld /> View live</a>
+        <a className="inline-flex gap-1 cursor-pointer items-center underline-offset-4 underline decoration-1 hover:decoration-transparent hover:text-sky-900 transition-all" target="_blank" href={github}><SiGithub /> Repository </a>
       </div>
     </li>
   )
