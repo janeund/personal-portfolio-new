@@ -101,7 +101,7 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'CSS',
+        name: 'CSS3',
         icon: SiCss3
       },
       {
@@ -131,7 +131,7 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'CSS',
+        name: 'CSS3',
         icon: SiCss3
       },
       {
@@ -157,7 +157,7 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'SCSS',
+        name: 'Sass',
         icon: SiSass
       },
       {
@@ -183,8 +183,8 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'CSS',
-        icon: SiSass
+        name: 'CSS3',
+        icon: SiCss3
       },
       {
         name: 'JavaScript',
@@ -209,8 +209,8 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'CSS',
-        icon: SiCss3
+        name: 'Sass',
+        icon: SiSass
       },
       {
         name: 'JavaScript',
