@@ -93,7 +93,7 @@ export const projects = [
   { 
     id: 'project-1', 
     title: 'Discover Movie App',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    description: 'MSB movie application is a platform to discover movies, TV-shows and celebrities, which fetches data from external API TMDB',
     image: movie,
     stack: [
       {
@@ -123,7 +123,7 @@ export const projects = [
   { 
     id: 'project-2', 
     title: 'Memory Game',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    description: 'Memory game application is designed to test player\'s mnemonic skills in a fun way.',
     image: memory,
     stack: [
       {
@@ -149,7 +149,7 @@ export const projects = [
   { 
     id: 'project-3', 
     title: 'Calorie Tracker App',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    description: 'Calorie counter application is designed to keep track of meals and workouts and monitor the amount of total calories burned and consumed.',
     image: calorieTracker,
     stack: [
       {
@@ -175,7 +175,7 @@ export const projects = [
   { 
     id: 'project-4', 
     title: 'Movie Seat Booking',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    description: 'Movie Seat Booking application is designed to display movie choices and seats in a theater to select from in order to purchase tickets.',
     image: moviePick,
     stack: [
       {
@@ -201,7 +201,7 @@ export const projects = [
   { 
     id: 'project-5', 
     title: 'Music Services Website',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    description: 'Website built with HTML, CSS and JavaScript, adapted for different users devices, including interactive mobile navigation, images slideshow and filter tabs.',
     image: qrates,
     stack: [
       {
