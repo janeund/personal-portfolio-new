@@ -235,7 +235,7 @@ export const projects = [
         icon: SiHtml5
       },
       {
-        name: 'CSS',
+        name: 'Sass',
         icon: SiSass
       },
       {
@@ -304,10 +304,10 @@ export const experience = [
 export const socialPages = [
   {
     icon: FaGithub,
-    link: 'https://example.com'
+    link: 'https://github.com/janeund'
   },
   {
     icon: FaLinkedin,
-    link: 'https://example.com'
+    link: 'https://www.linkedin.com/in/evgeniyazhavoronkova/'
   }
 ]

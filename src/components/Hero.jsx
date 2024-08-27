@@ -16,7 +16,7 @@ function Hero() {
       </div>
       <div className="flex items-center gap-3">
         {/* <Skills /> */}
-        <a href="/" target="_blank" className="hover:bg-stone-950 hover:text-white ease-in-out duration-500 py-3 px-5 border bg-white font-[430] border-gray-300 rounded-full flex items-center gap-1">Download CV <RxDownload className="text-[0.8rem]" /> </a>
+        <a href={CV} target="_blank" download="CV_evgeniia_zhavoronkova" className="hover:bg-stone-950 hover:text-white ease-in-out duration-500 py-3 px-5 border bg-white font-[430] border-gray-300 rounded-full flex items-center gap-1">Download CV <RxDownload className="text-[0.8rem]" /> </a>
         <Social />
       </div>
     </section>
