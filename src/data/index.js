@@ -93,7 +93,7 @@ export const projects = [
   { 
     id: 'project-1', 
     title: 'Discover Movie App',
-    description: 'MSB movie application is a platform to discover movies, TV-shows and celebrities, which fetches data from external API TMDB',
+    description: 'App is a platform to discover movies, TV-shows and celebrities, which fetches data from external API TMDB',
     image: movie,
     stack: [
       {
@@ -123,7 +123,7 @@ export const projects = [
   { 
     id: 'project-2', 
     title: 'Memory Game',
-    description: 'Memory game application is designed to test player\'s mnemonic skills in a fun way.',
+    description: 'App is designed to test player\'s mnemonic skills in a fun way.',
     image: memory,
     stack: [
       {
@@ -149,7 +149,7 @@ export const projects = [
   { 
     id: 'project-3', 
     title: 'Calorie Tracker App',
-    description: 'Calorie counter application is designed to keep track of meals and workouts and monitor the amount of total calories burned and consumed.',
+    description: 'App is designed to keep track of meals and workouts and monitor the amount of total calories burned and consumed.',
     image: calorieTracker,
     stack: [
       {
@@ -175,7 +175,7 @@ export const projects = [
   { 
     id: 'project-4', 
     title: 'Movie Seat Booking',
-    description: 'Movie Seat Booking application is designed to display movie choices and seats in a theater to select from in order to purchase tickets.',
+    description: 'App is designed to display movie choices and seats in a theater to select from in order to purchase tickets.',
     image: moviePick,
     stack: [
       {
