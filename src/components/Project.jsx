@@ -9,7 +9,7 @@ function Project({id, title, description, image, stack, demo, github}) {
         <img src={image} alt={title} className="mb-4"/>
       </div>
       <h3 className="font-medium mb-2">{title}</h3>
-      <p className="mb-3 text-[15px] leading-5">{description}</p>
+      <p className="mb-3 text-[15px] leading-5 min-h-16">{description}</p>
       <ul className="flex gap-2 flex-wrap mb-7">
         {stack.map((tool, index) => (
           <li key={`tool-${index}`} className='text-sm py-1 px-2 border border-neutral-400 rounded-md flex gap-2 items-center'>
