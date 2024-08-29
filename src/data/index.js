@@ -93,7 +93,7 @@ export const projects = [
   { 
     id: 'project-1', 
     title: 'Discover Movie App',
-    description: 'App is a platform to discover movies, TV-shows and celebrities, which fetches data from external API TMDB',
+    description: 'Platform to discover movies, TV-shows and celebrities, which fetches data from external API TMDB.',
     image: movie,
     stack: [
       {
@@ -123,7 +123,7 @@ export const projects = [
   { 
     id: 'project-2', 
     title: 'Memory Game',
-    description: 'App is designed to test player\'s mnemonic skills in a fun way.',
+    description: 'Game is built to test player\'s mnemonic skills in a fun way. User can choose between game theme and grid size.',
     image: memory,
     stack: [
       {
@@ -175,7 +175,7 @@ export const projects = [
   { 
     id: 'project-4', 
     title: 'Movie Seat Booking',
-    description: 'App is designed to display movie choices and seats in a theater to select from in order to purchase tickets.',
+    description: 'App is showcasing a process of selecting movie and seats in a theater in order to purchase tickets.',
     image: moviePick,
     stack: [
       {
@@ -201,7 +201,7 @@ export const projects = [
   { 
     id: 'project-5', 
     title: 'Music Services Website',
-    description: 'Website built with HTML, CSS and JavaScript, adapted for different users devices, including interactive mobile navigation, images slideshow and filter tabs.',
+    description: 'Muotipage website is adapted for different users devices, includes images slideshow and filter tabs.',
     image: qrates,
     stack: [
       {
@@ -227,7 +227,7 @@ export const projects = [
   { 
     id: 'project-6', 
     title: 'Marketing Agency Landing page',
-    description: 'Responsive website homepage adapted for different users devices, including interactive mobile navigation',
+    description: 'Responsive landing page adapted for different users devices, includes details disclosure elements built with JavaScript.',
     image: landing,
     stack: [
       {
