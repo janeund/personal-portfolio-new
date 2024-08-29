@@ -175,7 +175,7 @@ export const projects = [
   { 
     id: 'project-4', 
     title: 'Movie Seat Booking',
-    description: 'App is showcasing a process of selecting movie and seats in a theater in order to purchase tickets.',
+    description: 'App showcases a process of selecting movie and seats in a theater in order to purchase tickets.',
     image: moviePick,
     stack: [
       {
@@ -201,7 +201,7 @@ export const projects = [
   { 
     id: 'project-5', 
     title: 'Music Services Website',
-    description: 'Muotipage website is adapted for different users devices, includes images slideshow and filter tabs.',
+    description: 'Multipage website adapted for different users devices, includes images slideshow and filter tabs.',
     image: qrates,
     stack: [
       {
