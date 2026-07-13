@@ -1,7 +1,7 @@
 import { moviePick, movie, memory, landing, qrates, calorieTracker } from '../assets';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss3, SiReact, SiHtml5, SiVitest, SiGit, SiSass, SiSwiper } from "react-icons/si";
+import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss, SiReact, SiHtml5, SiVitest, SiGit, SiSass, SiSwiper } from "react-icons/si";
 
 export const navLinks = [
   // {
@@ -40,7 +40,7 @@ export const techSkills = [
   {
     id: 'skill-3',
     name: 'CSS3',
-    icon: SiCss3
+    icon: SiCss
   }, 
   {
     id: 'skill-4',
@@ -102,7 +102,7 @@ export const projects = [
       },
       {
         name: 'CSS3',
-        icon: SiCss3
+        icon: SiCss
       },
       {
         name: 'JavaScript',
@@ -132,7 +132,7 @@ export const projects = [
       },
       {
         name: 'CSS3',
-        icon: SiCss3
+        icon: SiCss
       },
       {
         name: 'JavaScript',
@@ -184,7 +184,7 @@ export const projects = [
       },
       {
         name: 'CSS3',
-        icon: SiCss3
+        icon: SiCss
       },
       {
         name: 'JavaScript',
