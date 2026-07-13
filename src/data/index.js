@@ -264,40 +264,49 @@ export const education = [
 export const experience = [
   {
     id: 'job-1',
+    company: 'Reboot Norge AS',
+    website: 'https://reboot.no',
+    position: 'Frontend Web Developer',
+    place: 'Oslo, Norway',
+    description: 'Build and maintain client websites across multiple WordPress page builders (Elementor, Salient/WPBakery), writing custom HTML, CSS, and JavaScript.',
+    period: 'February 2025 – present'
+  },
+  {
+    id: 'job-2',
+    company: 'Personal projects',
+    website: 'https://reboot.no',
+    position: 'Self-Directed Learning',
+    place: 'Oslo, Norway',
+    description: 'Studied web development and built personal projects using HTML, CSS, JavaScript, and React.',
+    period: 'August 2023 – February 2025'
+  },
+  {
+    id: 'job-3',
     company: 'Astrum',
     website: 'https://astrum-entertainment.ru/en',
     position: 'Junior Brand Manager',
     place: 'Moscow, Russia',
     description: 'Developed product marketing strategy and presentations to stakeholders, monitored and analyzed KPI, collaborated with art and web-development teams on asset creation, assisted in marketing research, tested projects.',
-    period: 'January – August 2023'
-  },
-  {
-    id: 'job-2',
-    company: 'Ubisoft Games',
-    website: 'https://www.ubisoft.com/en-us/company/about-us',
-    position: 'Digital Marketing Specialist',
-    place: 'Moscow, Russia',
-    description: 'Developed marketing plans in collaboration with international teams, controlled optimization and perfomance of media campaigns, initiated partnerships with influensers.',
-    period: 'December 2021 - October 2022'
-  },
-  {
-    id: 'job-3',
-    company: 'Ubisoft Games',
-    website: 'https://www.ubisoft.com/en-us/company/about-us',
-    position: 'Consumer Engagement Specialist',
-    place: 'Moscow, Russia',
-    description: 'Planned and managed online and offline events with gaming communities, localized marketing assets for the CIS region.',
-    period: 'August 2019 – November 2021'
+    period: 'January 2023 – August 2023'
   },
   {
     id: 'job-4',
+    company: 'Ubisoft Games',
+    website: 'https://www.ubisoft.com/en-us/company/about-us',
+    position: 'Digital Marketing / Consumer Engagement Specialist',
+    place: 'Moscow, Russia',
+    description: 'Planned and managed online and offline marketing campaigns and events for gaming communities, developed marketing plans in collaboration with international teams, optimized media campaign performance, built partnerships with influencers, and localized marketing assets for the CIS region.',
+    period: 'August 2019 – October 2022'
+  },
+  {
+    id: 'job-5',
     company: 'Ubisoft Games',
     website: 'https://www.ubisoft.com/en-us/company/about-us',
     position: 'Finance Assistant',
     place: 'Moscow, Russia',
     description: 'Worked with financial and legal documents, analyzed data, prepared financial reports.',
     period: 'September 2018 – July 2019'
-  }
+  },
 ];
 
 export const socialPages = [

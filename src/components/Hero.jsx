@@ -8,8 +8,8 @@ function Hero() {
       <div className="flex justify-between">
         <div className="info max-w-sm mb-4">
           <h1 className="text-4xl font-medium">Hello! I&apos;m Evgeniia, </h1>
-          <p className="font-medium text-lg">Junior Frontend Developer based in Oslo.</p>
-          <p className="mt-2 text-base">I&apos;m a self-taught developer with backround in video games marketing.</p>
+          <p className="font-medium text-lg">Frontend Developer based in Oslo.</p>
+          <p className="mt-2 text-base">I made the switch from marketing to frontend development, and now help build client websites at a WordPress agency.</p>
         </div>
         <img src={photo} alt="profile photo" className="shadow-xl max-w-32 max-h-32 rounded-full border border-gray-400"/>
       </div>
