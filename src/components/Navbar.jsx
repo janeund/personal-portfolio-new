@@ -12,7 +12,7 @@ function Navbar() {
           ezh
         </a>
       </div>
-      <ul className="z-10 sm:flex hidden py-2 px-5 rounded-full bg-white bg-opacity-60 backdrop-filter backdrop-blur-lg shadow-sm">
+      <ul className="z-10 sm:flex hidden py-2 px-5 rounded-full bg-white bg-opacity-60 backdrop-filter backdrop-blur-lg shadow-xs">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -29,7 +29,7 @@ function Navbar() {
         <div onClick={() => setToggle((prev) => !prev)}>
           {toggle ? <IoClose /> : <RxHamburgerMenu />}
         </div>
-        <div className={`${toggle ? 'flex' : 'hidden'} absolute p-6 right-0 top-20 min-w-[140px] w-full h-72 max-[380px]:h-[25rem] max-[500px]:h-96 rounded-xl bg-white drop-shadow-xl`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} absolute p-6 right-0 top-20 min-w-[140px] w-full h-72 max-[380px]:h-100 max-[500px]:h-96 rounded-xl bg-white drop-shadow-xl`}>
         <ul className="flex flex-col justify-center items-center mx-auto">
         {navLinks.map((nav, index) => (
           <li
