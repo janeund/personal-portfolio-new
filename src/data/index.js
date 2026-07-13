@@ -296,7 +296,7 @@ export const experience = [
     position: 'Digital Marketing / Consumer Engagement Specialist',
     place: 'Moscow, Russia',
     description: 'Planned and managed online and offline marketing campaigns and events for gaming communities, developed marketing plans in collaboration with international teams, optimized media campaign performance, built partnerships with influencers, and localized marketing assets for the CIS region.',
-    period: 'August 2019 – October 2022'
+    period: 'June 2019 – October 2022'
   },
   {
     id: 'job-5',
@@ -305,7 +305,7 @@ export const experience = [
     position: 'Finance Assistant',
     place: 'Moscow, Russia',
     description: 'Worked with financial and legal documents, analyzed data, prepared financial reports.',
-    period: 'September 2018 – July 2019'
+    period: 'September 2018 – June 2019'
   },
 ];
 
