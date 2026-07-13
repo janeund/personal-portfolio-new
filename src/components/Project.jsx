@@ -1,4 +1,4 @@
-import { projects } from "../data";
+// import { projects } from "../data";
 import { SiGithub } from "react-icons/si";
 import { TfiWorld } from "react-icons/tfi";
 

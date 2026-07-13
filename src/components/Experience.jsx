@@ -13,7 +13,7 @@ function Experience() {
         <p class="mb-4 text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
     </li> */}
 
-    {experience.map((job, index) => (
+    {experience.map((job) => (
       <li key={job.id} className="mb-8 ms-4">
         <div className="absolute w-3 h-3 bg-[#F1D0D0] rounded-full border-gra mt-1.5 -inset-s-1.5 border border-white"></div>
         <h3 className="text-lg font-semibold text-gray-900">{job.position}</h3>

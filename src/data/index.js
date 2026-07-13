@@ -1,6 +1,5 @@
 import { moviePick, movie, memory, landing, qrates, calorieTracker } from '../assets';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
 import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss, SiReact, SiHtml5, SiVitest, SiGit, SiSass, SiSwiper } from "react-icons/si";
 
 export const navLinks = [

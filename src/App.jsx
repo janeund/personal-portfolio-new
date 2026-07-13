@@ -1,5 +1,5 @@
-import { Navbar, Hero, Skills, Projects, Experience, Footer } from './components';
-import { topSvg, top1Svg } from './assets';
+import { Navbar, Hero, Projects, Experience, Footer } from './components';
+import { top1Svg } from './assets';
 
 function App() {
 
