@@ -274,7 +274,7 @@ export const experience = [
   {
     id: 'job-2',
     company: 'Personal projects',
-    website: 'https://reboot.no',
+    website: '#projects',
     position: 'Self-Directed Learning',
     place: 'Oslo, Norway',
     description: 'Studied web development and built personal projects using HTML, CSS, JavaScript, and React.',
