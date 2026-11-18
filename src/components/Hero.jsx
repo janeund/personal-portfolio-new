@@ -4,10 +4,10 @@ import Social from "./Social";
 
 function Hero() {
   return (
-    <section id="hero" className='container mx-auto max-w-xl mb-20 z-10 relative'>
+    <section id="about" className='container mx-auto max-w-xl mb-20 z-10 relative'>
       <div className="flex justify-between">
         <div className="info max-w-sm mb-4">
-          <h1 className="text-4xl font-medium">Hello! I&apos;m Evgeniia, </h1>
+          <h1 className="text-3xl sm:text-4xl font-medium">Hello! I&apos;m Evgeniia, </h1>
           <p className="font-medium text-lg">Frontend Developer based in Oslo.</p>
           <p className="mt-2 text-base">Ex-video games marketing specialist, now a developer building for the web at an agency in Oslo.</p>
         </div>
