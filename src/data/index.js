@@ -153,7 +153,7 @@ export const projects = [
   { 
     id: 'project-2', 
     title: 'Memory Game',
-    description: 'React game that tests player\'s mnemonic skills: numbers or icons, 4x4 or 6x6 grid, with timer, moves counter and results.',
+    description: 'React + TypeScript game that tests player\'s mnemonic skills: numbers or icons, 4x4 or 6x6 grid, with timer, moves counter and results.',
     image: memory,
     stack: [
       {
@@ -161,8 +161,8 @@ export const projects = [
         icon: SiReact
       },
       {
-        name: 'JavaScript',
-        icon: SiJavascript
+        name: 'TypeScript',
+        icon: SiTypescript
       },
       {
         name: 'CSS3',
