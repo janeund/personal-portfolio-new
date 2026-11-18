@@ -7,6 +7,7 @@ import memory from "./memory-game.webp";
 import landing from "./landing.webp";
 import qrates from "./qrates.webp";
 import news from "./news.webp";
+import norsk from "./norsk.webp";
 import topSvg from './top.svg';
 import top1Svg from './top1.svg';
 
@@ -22,5 +23,6 @@ export {
   moviePick,
   calorieTracker,
   qrates,
-  landing
+  landing,
+  norsk
 }

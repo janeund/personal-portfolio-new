@@ -1,6 +1,6 @@
-import { moviePick, movie, memory, landing, qrates, calorieTracker } from '../assets';
+import { moviePick, movie, memory, landing, qrates, calorieTracker, norsk } from '../assets';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss, SiReact, SiHtml5, SiVitest, SiGit, SiSass, SiSwiper } from "react-icons/si";
+import { SiBem, SiWebpack, SiFigma, SiJavascript, SiCss, SiReact, SiHtml5, SiVitest, SiGit, SiSass, SiSwiper, SiTypescript } from "react-icons/si";
 
 export const navLinks = [
   // {
@@ -47,6 +47,11 @@ export const techSkills = [
     icon: SiJavascript
   }, 
   {
+    id: 'skill-10',
+    name: 'TypeScript',
+    icon: SiTypescript
+  },
+  {
     id: 'skill-5',
     name: 'Webpack',
     icon: SiWebpack
@@ -76,10 +81,10 @@ export const techSkills = [
 export const spokenLanguages = [
   {
     language: 'English',
-    level: 'Working profeciency'
+    level: 'Working proficiency'
   },
   {
-    language: 'Norvegian',
+    language: 'Norwegian',
     level: 'Elementary'
   },
   {
@@ -89,6 +94,32 @@ export const spokenLanguages = [
 ];
 
 export const projects = [
+  {
+    id: 'project-norsk',
+    title: 'Norsk – Language Learning App',
+    description: 'Dashboard app for learning Norwegian: flashcards with spaced repetition, quizzes, grammar lessons, XP and daily streaks.',
+    image: norsk,
+    stack: [
+      {
+        name: 'React',
+        icon: SiReact
+      },
+      {
+        name: 'TypeScript',
+        icon: SiTypescript
+      },
+      {
+        name: 'CSS3',
+        icon: SiCss
+      },
+      {
+        name: 'Vite',
+        icon: SiVitest
+      }
+    ],
+    demo: 'https://janeund.github.io/norsk-app/',
+    github: 'https://github.com/janeund/norsk-app'
+  },
   { 
     id: 'project-1', 
     title: 'Discover Movie App',
