@@ -123,20 +123,16 @@ export const projects = [
   { 
     id: 'project-1', 
     title: 'Discover Movie App',
-    description: 'Platform to discover movies, TV-shows and celebrities, which fetches data from external API TMDB.',
+    description: 'React + TypeScript app to discover movies, TV series and celebrities with data from the TMDB API.',
     image: movie,
     stack: [
       {
-        name: 'HTML5',
-        icon: SiHtml5
+        name: 'React',
+        icon: SiReact
       },
       {
-        name: 'CSS3',
-        icon: SiCss
-      },
-      {
-        name: 'JavaScript',
-        icon: SiJavascript
+        name: 'TypeScript',
+        icon: SiTypescript
       },
       {
         name: 'Swiper.js',
