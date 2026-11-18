@@ -153,27 +153,27 @@ export const projects = [
   { 
     id: 'project-2', 
     title: 'Memory Game',
-    description: 'Game is built to test player\'s mnemonic skills in a fun way. User can choose between game theme and grid size.',
+    description: 'React game that tests player\'s mnemonic skills: numbers or icons, 4x4 or 6x6 grid, with timer, moves counter and results.',
     image: memory,
     stack: [
       {
-        name: 'HTML5',
-        icon: SiHtml5
-      },
-      {
-        name: 'CSS3',
-        icon: SiCss
+        name: 'React',
+        icon: SiReact
       },
       {
         name: 'JavaScript',
         icon: SiJavascript
       },
       {
+        name: 'CSS3',
+        icon: SiCss
+      },
+      {
         name: 'Vite',
         icon: SiVitest
       }
     ],
-    demo: 'https://janeund.github.io/memory-game/index.html',
+    demo: 'https://janeund.github.io/memory-game/',
     github: 'https://github.com/janeund/memory-game'
   },
   { 
