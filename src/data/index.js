@@ -205,6 +205,8 @@ export const projects = [
   { 
     id: 'project-4', 
     title: 'Movie Seat Booking',
+    // Hidden from the Projects section; set to false to show it again
+    hidden: true,
     description: 'App showcases a process of selecting movie and seats in a theater in order to purchase tickets.',
     image: moviePick,
     stack: [

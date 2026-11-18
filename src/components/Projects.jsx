@@ -7,7 +7,7 @@ function Projects() {
       <h2 className="font-medium inline-block text-3xl pb-1 mb-5 bg-linear-to-r from-[#2e3f4663] via-[#F1D0D0] to-[#918f88cb] bg-size-[100%_4px] bg-no-repeat bg-bottom">Projects
       </h2>
       <ul className="grid md:grid-cols-2 grid-cols-1 gap-8 justify-items-center place-self-center mx-auto">
-        {projects.map((project) => (
+        {projects.filter((project) => !project.hidden).map((project) => (
           <Project key={project.id} {...project}/>
         ))}
       </ul>
